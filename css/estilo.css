@@ -1,0 +1,202 @@
+body {
+	background-image:url(../imagenes/fondo.jpg);
+	color:#000000 ;
+	font-family:src:url("../fonts/Vermina.TTF");
+	font-size:30px;
+}
+p{
+	text-align:center;
+	font-size:14px;
+	
+}
+hr{
+	border:3px solid #000000;
+	border-radius:5px;
+	width:82%;
+}
+table,tr,td{
+	border:3px solid #D8B178;
+	border-spacing:0px;
+	background-color:#EBCFA7;
+	text-align:center;
+	font-size:20px;
+}
+ul{
+	list-style-type: circle;
+	list-style-position:inside;
+}
+ol{
+	list-style-type:lower-alpha;
+	list-style-position: inside;
+}
+@font-face{
+	font-family:mifuente;
+	src:url("../fonts/GOTHIC.TTF");
+}
+.pie{
+	font-size:10px;
+	text-align:center;
+	font-weight:bold;
+}
+.encabezado{
+	font-family:mifuente;
+	font-size:35px;
+	text-align:center;
+	font-weight:bold;
+}
+.img-marquee{
+	height:400px;
+	width:250px;
+}
+.img-controller{
+	height:60px;
+	width:60px;
+}
+.img-servicios{
+	height:300px;
+	width:200px;
+}
+.img-manicura{
+	height:300px;
+	width:200px;
+}
+.img-gelish{
+	height:400px;
+	width:300px;
+}
+.img-logo{
+	height:150px;
+	width:400px;
+}
+.logo-principal{
+	height:200px;
+	width:600px;
+}
+.boton{
+	height:80px;
+	width:80px;
+}
+.ubi{
+	width:600px;
+	height:450px;
+}
+*{
+	margin:0px;
+}
+div#top{
+	padding:30px;
+	width:100%;
+	height:50px;
+	/*background-color:#F0CD97;*/
+	background-image:linear-gradient(#F0CD97,#FFFFFF );
+}
+div#piediv{
+	padding:30px;
+	width:100%;
+	height:40px;
+	background-image:linear-gradient(#FFFFFF,#F0CD97);
+}
+div#principal{
+	width:100%;
+	background-image:url(../imagenes/fondo.jpg);
+}
+.caja{
+	height:440px;
+	width:250px;
+	background:#EBCFA7;
+	border:1px solid #EBCFA7;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px black;
+	transform:scale(1.2);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:20px;
+}
+.carrousel{
+	width:600px;
+	margin:auto;
+	/*Hace que el padding y el border pasen a formar parte del calculo de la caja y no de la suma*/
+	box-sizing:border-box;
+}
+.conteCarrousel{
+	width:100%;
+	height:400px;
+	/*hace que el navegador oculte todo el contenido que salga del div*/
+	overflow:hidden;
+}
+.itemCarrousel{
+	/*la nueva posicion del elemento en relacionde un elementocon su posicion normal*/
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselArrows{
+	/*hace que un elemento se coloque con respecto a su contenedor posiscionado mas cercano*/
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemCarrouselArrows>i:hover{
+	cursor:pointer;
+}
+.conteCarrouselController{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.conteCarrouselController>a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemCarrouselArrows > a >i{
+	color: white;
+}
+div#descripcion{
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:15px;
+	font-size:18px;
+	color:#FFFFFF;
+}
+.cajatexto{
+	width:700px;
+	background-color:#000000;
+	border:1px solid #000000;
+	margin:10px;
+	color:black;
+	text-align:center;
+}
+.fuente{
+	font-size:20px;
+}
+
+
+
